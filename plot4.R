@@ -34,7 +34,7 @@ plot(temp, sample$Voltage, type = "l", xlab = "datetime", ylab = "Voltage")
 plot(temp, sample$Sub_metering_1, type = "l", xlab = "", ylab = "Energy sub meterig")
 lines(temp, sample$Sub_metering_2, type = "l", col = "red")
 lines(temp, sample$Sub_metering_3, type = "l", col = "blue")
-legend("topright", c("sub metering 1", "sub metering 2", "sub metering 3"),lty=, lwd=c(2,2), bty = "n", col = c("black", "red", "blue"))
+legend("topright", c("sub metering 1", "sub metering 2", "sub metering 3"),lty=, lwd=c(1,1), bty = "n", cex=0.5 ,col = c("black", "red", "blue"))
 plot(temp, sample$Global_reactive_power, type = "l", xlab = "datetime", ylab = "Global_reactive_power")
 
 
